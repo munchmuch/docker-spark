@@ -8,21 +8,21 @@
 1. Install docker and docker-compose
 2. Install java from Oracle, by untaring the files to /usr/lib/jdk/jdk_version
 3. Add paths to bashrc e.g.,
-..* export JAVA_HOME="/usr/lib/jdk/jdk1.8.0_221"
-..* export JRE_HOME="$JAVA_HOME/jre"
-..* export PATH="$JAVA_HOME/bin:$PATH"
+  * export JAVA_HOME="/usr/lib/jdk/jdk1.8.0_221"
+  * export JRE_HOME="$JAVA_HOME/jre"
+  * export PATH="$JAVA_HOME/bin:$PATH"
 4. Activate bashrc, "source \~/.bashrc"
 5. Test installation, 
-..* java -version
-..* echo $PATH
-..* echo $JAVA_HOME
-..* echo $JRE_HOME
+  * java -version
+  * echo $PATH
+  * echo $JAVA_HOME
+  * echo $JRE_HOME
 6. Install scala,
-..* sudo apt update
-..* sudo apt install scala
+  * sudo apt update
+  * sudo apt install scala
 7. Install pyspark in conda
-..* conda activate bfa
-..* conda install -c conda-forge pyspark
+  * conda activate bfa
+  * conda install -c conda-forge pyspark
 
 Docker images to:
 * Setup a standalone [Apache Spark](https://spark.apache.org/) cluster running one Spark Master and multiple Spark workers
